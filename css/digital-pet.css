@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+    background-color: #1215e2;
+    padding: 24px;
+}
+
+.box {
+    background-color: rgb(217, 236, 222);
+    padding: 16px;
+    width: 100%;
+}
+
+.title {
+    border-bottom: 2px solid #524e4e;
+}
+
+.title h2 {
+    color: #1215e2;
+    font-weight: 800;
+
+}
+
+/* phần goal */
+
+#goal {
+    padding-bottom: 7.5rem;
+}
+
+.goal-items {
+    padding-left: 18px;
+
+}
+
+.flex-goal {
+    display: flex;
+    border-bottom: 2px solid #bbbbc2;
+    margin-top: 18px;
+}
+
+.icon-team {
+    margin-top: 20px;
+}
+
+.goal-content h4 {
+    display: inline-block;
+    font-size: 18px;
+    color: #444447;
+    font-weight: 600;
+    margin-left: 22px;
+}
+
+.goal-content {
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+
+
+.goal-text {
+    margin-left: 18px;
+    margin-bottom: 16px;
+}
+
+.icon {
+    font-size: 32px;
+    padding-right: 28px;
+    margin-top: 16px;
+}
+
+/* Phần Scopes */
+
+
+.flex-scopes {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.scope-text {
+    font-size: 14px;
+}
+
+.scope-content h4 {
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+/* Phần team */
+
+#team {
+    height: auto;
+
+}
+
+.flex-team {
+    display: flex;
+}
+
+.team-content {
+    margin-top: 30px;
+}
+
+.team-icon {
+    margin-top: 24px;
+}
+
+.team-content h4 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* Phần Primary */
+#primary {
+    padding-bottom: 2.6rem;
+}
+
+.flex-primary {
+    display: flex;
+}
+
+.icon-primary {
+    margin-top: 24px;
+}
+
+.primary-content {
+    margin-top: 18px;
+}
+
+.primary-text {
+    font-size: 14px;
+}
+
+/* Phần timeline */
+
+
+.flex-timeLine {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.timeLine-content {
+    margin-top: 34px;
+}
+
+.timeLine-content h4 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.icon-timeLine {
+    margin-top: 22px;
+}
+
+.icon-number {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #9e3bdc;
+    border-radius: 50%;
+    margin-right: 32px;
+}
+
+.icon-number p {
+    margin-top: 12px;
+}
+
+
+
+.timeLine-text {
+    font-size: 14px;
+}

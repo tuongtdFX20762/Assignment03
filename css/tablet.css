@@ -1,0 +1,90 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .myName {
+        display: none;
+    }
+
+    section .container {
+        padding: 12px 50px;
+    }
+
+    #nav-bar a:link,
+    a:visited {
+        padding: 12px;
+        margin-right: 10px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    #target {
+        font-size: 12px;
+        padding-right: 20px;
+    }
+
+    #target h1 {
+        font-size: 24px;
+    }
+
+    #target p {
+        margin-left: 0;
+    }
+
+    #personal-info {
+        font-size: 12px;
+        padding-right: 20px;
+    }
+
+    .infoIcon {
+        margin-left: 0;
+    }
+
+    .certificate-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #footer a:link {
+        margin-right: 10px;
+    }
+
+    #project .project-title {
+        font-size: 14px;
+        text-align: center;
+        padding: 6px;
+    }
+
+    .project-text {
+        font-size: 10px;
+    }
+
+    .ptoject-content {
+        font-size: 12px;
+    }
+
+    .project-box tr td {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 12px;
+    }
+
+    .flex-goal,
+    .flex-scopes,
+    .flex-team,
+    .flex-primary,
+    .flex-timeLine {
+        display: block;
+    }
+
+    .job-icon,
+    .icon-team,
+    .icon-primary {
+        text-align: center;
+    }
+
+    #primary,
+    #scope {
+        margin-bottom: 24px;
+    }
+
+}
