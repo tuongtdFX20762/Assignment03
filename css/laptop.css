@@ -1,0 +1,443 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 30px 50px;
+}
+
+/* Phần BANNER */
+header {
+    position: relative;
+    background-image: linear-gradient(rgb(81, 78, 78), rgb(52, 55, 56));
+}
+
+.imgBanner {
+    width: 100%;
+    mix-blend-mode: overlay;
+
+}
+
+#banner {
+    position: absolute;
+    text-align: center;
+    top: 16%;
+    left: 38%;
+    color: #f7f7f7;
+    font-size: 14px;
+}
+
+header span {
+    color: #ada3a3;
+}
+
+
+/*  Phần nav-bar */
+#nav-bar {
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    padding-top: 26px;
+    margin: 0px;
+    border-left: 2px solid #f0eded;
+    padding: 50px 10px 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #181717;
+}
+
+.container a:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.container a i {
+    color: rgb(8, 138, 198);
+}
+
+.myName {
+    font-size: 30px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.myName h1 {
+    font-size: 2rem;
+}
+
+.myName span {
+    font-size: 12px;
+    font-weight: 100;
+    color: #999191;
+}
+
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Mục tiêu nghề nghiệp */
+#target {
+    background-color: #fff;
+}
+
+#target h1 {
+    text-align: center;
+}
+
+#target p {
+    margin-left: 80px;
+    margin-right: 22px;
+}
+
+/*  Thông tin cá nhân  */
+
+#personal-info {
+    background-color: #f0eded;
+}
+
+#personal-info ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* lỗi mail */
+.error-mail {
+    color: #e30606;
+    font-weight: 400;
+}
+
+.myInfo {
+    display: none;
+    margin-left: 100px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info span {
+    font-weight: bold;
+}
+
+.icon {
+    margin-top: 18px;
+    margin-left: 42px;
+    color: #1cb2cc;
+}
+
+/* phần thông tin nghề nghiệp */
+
+.job-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    column-gap: 36px;
+    row-gap: 20px;
+}
+
+/* tắt hiển thị nút view more và less more */
+.view-more,
+.less-more {
+    display: none;
+
+}
+
+.job-title {
+    margin-left: 16px;
+}
+
+.job-title h1 {
+    font-size: 30px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    columns: 18px;
+    row-gap: 60px;
+    border: 2px solid #999191;
+    align-items: center;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.job-icon i {
+    font-size: 36px;
+}
+
+.job-text {
+    grid-column: 1/-1;
+    margin-left: 16px;
+    font-size: 14px;
+    display: none;
+}
+
+.job-text h4 {
+    font-size: 16px;
+}
+
+.job-text h4::before {
+    content: "•";
+    display: inline-block;
+    color: #07889f;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.year {
+    color: #636060;
+    margin: 10px 0 6px;
+}
+
+.job-content {
+    color: #636060;
+    font-size: 14px;
+
+}
+
+.present {
+    background-color: #1cb2cc;
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 10px;
+}
+
+.text1 {
+    position: relative;
+}
+
+.text2 {
+    position: relative;
+    margin-top: 24px;
+}
+
+/* sở thích */
+
+.icon-hobbies i {
+    font-size: 16px;
+    color: #1cb2cc;
+    border: 2px solid #1cb2cc;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hobbies {
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+
+}
+
+/* ô màu */
+
+.blueBox {
+    display: inline-block;
+    background-color: #0babc7;
+    width: 44px;
+    height: 4px;
+    margin: 8px 6px;
+}
+
+.grayBox {
+    display: inline-block;
+    background-color: #999191;
+    width: 44px;
+    height: 4px;
+    margin: 8px 6px;
+}
+
+#english {
+    margin-bottom: 20px;
+}
+
+/* Phần chứng chỉ - giải thưởng */
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.certificate-content {
+    display: flex;
+    gap: 28px;
+}
+
+.img-Certificate {
+    width: 230px;
+    height: 160px;
+    margin-right: 10px;
+
+}
+
+.text h5 {
+    margin-bottom: 14px;
+}
+
+.vertical-border {
+
+    padding-left: 20px;
+    border-left: 2px solid #c7ac12;
+    margin-bottom: 36px;
+}
+
+.horizontal-border {
+    grid-column: 1/-1;
+    padding-top: 20px;
+    border-top: 2px solid #c7ac12;
+}
+
+/* Phần dự án */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+}
+
+.img-project {
+    width: 100%;
+
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-title {
+    padding: 20px;
+    font-weight: bold;
+    border-left: 2px solid #c4bdbd;
+    border-right: 2px solid #c4bdbd;
+    font-size: 16px;
+}
+
+.project-text {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 2px solid #c4bdbd;
+    border-left: 2px solid #c4bdbd;
+    border-right: 2px solid #c4bdbd;
+
+}
+
+.present-project {
+    margin-right: 20px;
+}
+
+.ptoject-content {
+    font-size: 14px;
+    border-right: 2px solid #c4bdbd;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr td {
+    padding: 16px;
+    border-bottom: 2px solid #c4bdbd;
+    border-left: 2px solid #c4bdbd;
+
+}
+
+
+tr td:first-child {
+    vertical-align: top;
+}
+
+/* Phần thông tin liên hẹ */
+
+.information ul li {
+    list-style: none;
+    font-size: 14px;
+
+}
+
+.information-list {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.information p {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.info-icon {
+    font-size: 20px;
+    color: #fff;
+    background-color: #1cb2cc;
+    border: 2px solid #1cb2cc;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.thongtin {
+    display: none;
+}
+
+/* phần nút hiển thị */
+
+.view-more {
+    background-color: #d6a813;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.view-more:before {
+    content: "\25B2";
+    margin-right: 10px;
+}
+
+.view-more:hover {
+    background-color: #f1c40f;
+    color: #181717;
+}
+
+.form-email {
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: #379911;
+    font-size: 14px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #065e13;
+}
+
+.show-more {
+    display: block;
+}
